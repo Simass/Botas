@@ -1584,7 +1584,7 @@
             },
 
             cookieCommand: {
-                command: 'Sausainis',
+                command: 'cookie',
                 rank: 'user',
                 type: 'startsWith',
                 cookies: ['Tau davė laimingajį sausainį!'
@@ -1950,7 +1950,7 @@
             },
 
             killCommand: {
-                command: 'isjungti',
+                command: 'kill',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
