@@ -193,7 +193,7 @@
             botName: "LtBotas",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            maximumAfk: 600,
+            maximumAfk: 9000,
             afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
