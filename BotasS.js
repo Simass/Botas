@@ -1584,7 +1584,7 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: 'Sausainis',
                 rank: 'user',
                 type: 'startsWith',
                 cookies: ['has given you a chocolate chip cookie!',
@@ -1959,7 +1959,7 @@
             },
 
             killCommand: {
-                command: 'kill',
+                command: 'isjungti',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
