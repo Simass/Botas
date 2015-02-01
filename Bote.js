@@ -1584,19 +1584,19 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: 'Sausainis',
                 rank: 'user',
                 type: 'startsWith',
-                cookies: ['Tau davė laimingajį sausainį!'
-                        'Tau davė piene išmirkytą šokoladinį sausainį!'
-                        'Tau davė sukėtėjūsį ir pasenūsį sausainį!'
-                        'Tau davė sausainį pabarstytą cukrumi! Palaukit, tai ne cukrus? Tavo vietoje jo neimčiau.'
-                        'Tau davė sėkmės sausainiuką!Ten rašo "Kodėl tu nedarau namų darbų?" '
-                        'Tau davė sėkmės sausainiuką! Ten rašo "Jeigu reikia, rizikuok!" '
-                        'Tau davė sėkmės sausainiuką! Ten rašo "Nebūk nevykelis, išeik į lauką ir užkalbink savo simpatiją." '
-                        'Tau davė auksinį sausainį! Bet tu jo negali suvalgyti, nes jis pagamintas iš aukso,. Bliamba. ' 
-                        'Tau davė Oreo sausainį su pieno stikline!'
-                        'Tau davė sausainį su vaivoryštės spalvomis! Arba jis/ji tave myli, arba homoseksualas.'
+                cookies: ['Tau davė laimingajį sausainį!',
+                        'Tau davė piene išmirkytą šokoladinį sausainį!',
+                        'Tau davė sukėtėjūsį ir pasenūsį sausainį!',
+                        'Tau davė sausainį pabarstytą cukrumi! Palaukit, tai ne cukrus? Tavo vietoje jo neimčiau.',
+                        'Tau davė sėkmės sausainiuką!Ten rašo "Kodėl tu nedarau namų darbų?" ',
+                        'Tau davė sėkmės sausainiuką! Ten rašo "Jeigu reikia, rizikuok!" ',
+                        'Tau davė sėkmės sausainiuką! Ten rašo "Nebūk nevykelis, išeik į lauką ir užkalbink savo simpatiją." ',
+                        'Tau davė auksinį sausainį! Bet tu jo negali suvalgyti, nes jis pagamintas iš aukso,. Bliamba. ' ,
+                        'Tau davė Oreo sausainį su pieno stikline!',
+                        'Tau davė sausainį su vaivoryštės spalvomis! Arba jis/ji tave myli, arba homoseksualas.',
                         'Pasigamink sausainių pats, bus daug skaniau!'
                 ],
                 getCookie: function () {
@@ -1950,7 +1950,7 @@
             },
 
             killCommand: {
-                command: 'kill',
+                command: 'isjungti',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
