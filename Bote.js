@@ -1584,7 +1584,7 @@
             },
 
             cookieCommand: {
-                command: 'Sausainis',
+                command: 'sausainis',
                 rank: 'user',
                 type: 'startsWith',
                 cookies: ['Tau davė laimingajį sausainį!',
