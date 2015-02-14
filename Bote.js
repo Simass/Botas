@@ -227,7 +227,7 @@
             motd: "Temporary Message of the Day",
             filterChat: true,
             etaRestriction: false,
-            welcome: true,
+            Sveikas: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
@@ -744,18 +744,18 @@
                 }
             }
             var greet = true;
-            var welcomeback = null;
+            var Sveikasback = null;
             if (known) {
                 basicBot.room.users[index].inRoom = true;
                 var u = basicBot.userUtilities.lookupUser(user.id);
                 var jt = u.jointime;
                 var t = Date.now() - jt;
                 if (t < 10 * 1000) greet = false;
-                else welcomeback = true;
+                else Sveikasback = true;
             }
             else {
                 basicBot.room.users.push(new basicBot.User(user.id, user.username));
-                welcomeback = false;
+               Sveikasback = false;
             }
             for (var j = 0; j < basicBot.room.users.length; j++) {
                 if (basicBot.userUtilities.getUser(basicBot.room.users[j]).id === user.id) {
@@ -764,8 +764,8 @@
                 }
 
             }
-            if (basicBot.settings.welcome && greet) {
-                welcomeback ?
+            if (basicBot.settings.Sveikas && greet) {
+               Seikasback ?
                     setTimeout(function (user) {
                         API.sendChat(subChat(basicBot.chat.welcomeback, {name: user.username}));
                     }, 1 * 1000, user)
